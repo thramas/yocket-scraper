@@ -1,0 +1,2 @@
+# yocket-scraper
+The website that is scraped in this example provides recent admit,rejects and grad profile data along with details like gre,toefl,gpa and other scores. I didn't want to waste much time manually glancing over the profiles that interest me. So this is a scraper that scrapes the data based on user's given choice of filters(for eg. GRE > 300, GPA > 9.0, selected courses, etc.). After scraping the same, this data is uploaded to Google Sheets using SheetsAPI for ready viewing. So much time saved.
