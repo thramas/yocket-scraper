@@ -77,12 +77,9 @@ def scrape_results(session_requests):
             if not is_item_in_list(course, DESIRED_COURSES):
                 continue
 
+            # Checking for decision
             decision = str(bucket_names[x].xpath('./div[1]/div[2]/h4/label/text()')[0]).replace('\n', '').lower()
             if not is_item_in_list(decision, DECISION_LIST):
-                continue
-
-            # Checking for decision
-            if DECISION_LIST not in decision.lower():
                 continue
 
             # Checking for GPA and Percentage
