@@ -9,3 +9,6 @@ Stuff you need to get this running
 2) Dependencies - requests,lxml,gspread and oauth2client.service_account
 3) Setup a Project enabled with SheetsAPI in Google Dev Console
 4) Share the spreadsheet to the email address provided by the credentials in step 3
+
+
+### This repository is no longer maintained
